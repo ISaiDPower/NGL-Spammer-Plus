@@ -41,7 +41,7 @@ if args.input == True:
 else:
     message = args.message
 
-scraper = cloudscraper.create_scraper()
+scraper = cloudscraper.create_scraper(interpreter="nodejs")
 
 os.system("cls")
 print(Fore.YELLOW + "NGL Spammer+ made by JPN (Discord: JPN#0001) https://isaidpower.dev")
